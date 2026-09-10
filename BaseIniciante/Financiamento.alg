@@ -1,8 +1,7 @@
 algoritmo "financiamento"
 var
-    parcela: real
+    parcela, salario: real
     idade: inteiro
-    salario: real
     aprovado: logico
 inicio
     escreval ("digite a idade do cliente: ")
