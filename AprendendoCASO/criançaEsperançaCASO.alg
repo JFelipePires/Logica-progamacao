@@ -1,7 +1,7 @@
 Algoritmo "CriançaEsperança"
 
 Var
-D: inteiro
+    D: inteiro
 Valor: Real
 Inicio
     EscrevaL ("---------------------------")

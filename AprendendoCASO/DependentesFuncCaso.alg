@@ -1,8 +1,8 @@
 Algoritmo "DependentesFuncionario"
 Var
-Nome: caractere
-Salario, NovoSalario: real
-Dependentes: inteiro
+    Nome: caractere
+    Salario, NovoSalario: real
+    Dependentes: inteiro
 Inicio
     Escreva ("Qual o nome do funcionário? ")
     Leia (Nome)

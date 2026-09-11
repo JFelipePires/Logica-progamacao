@@ -1,7 +1,7 @@
 Algoritmo "AnaliseDaPartida"
 
 Var
-GV, GABC, Diferenca: inteiro
+    GV, GABC, Diferenca: inteiro
 Inicio
     Escreval ("    Vasco X ABC     ")
     Escreval ("---------------------")

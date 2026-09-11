@@ -1,6 +1,6 @@
 algoritmo "Aprovado ou Reprovado"
 var
-nota1, nota2, media: real
+    nota1, nota2, media: real
 inicio
     Escreval ("-------------------")
     Escreval ("Escola do Zoi Torto")
@@ -11,10 +11,10 @@ inicio
     Leia (nota2)
     media <- (nota1 + nota2) / 2
 Se  (media >= 7) entao
-    escreval ("---------------")
-    escreval ("Media: ", media)
-    Escreval ("Aluno Aprovado")
-    Escreval ("---------------")
+        escreval ("---------------")
+        escreval ("Media: ", media)
+        Escreval ("Aluno Aprovado")
+        Escreval ("---------------")
 Senao
     Escreval ("---------------")
     Escreval ("Media: ", media)

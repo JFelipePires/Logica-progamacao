@@ -1,6 +1,6 @@
 algoritmo "AproveitamentoDoAluno"
 Var
-N1, N2, Media: real
+    N1, N2, Media: real
 Inicio
     Escreval ("-------------------------")
     Escreval ("  Escola do Perna Manca  ")

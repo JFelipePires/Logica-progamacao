@@ -1,6 +1,6 @@
 algoritmo "AlunoAprovadoReprovadoOuRecup"
 var
-n1,n2,m: real
+    n1,n2,m: real
 inicio
 escreva ("digite a primeira nota do aluno: ")
 leia (n1)

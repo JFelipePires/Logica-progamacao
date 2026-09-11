@@ -1,6 +1,6 @@
 algoritmo "Apto_A_Dirigir"
 var
-ano, nasc, apto: inteiro
+    ano, nasc, apto: inteiro
 inicio
     escreval ("------------------------")
     escreval ("Departamento de trânsito")
