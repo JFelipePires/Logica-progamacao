@@ -8,8 +8,8 @@ inicio
     repita
     Escreva ("Digite um número: ")
     leia (N)
-    se (TotN<0) entao
-    TotN <- TotN + 1
+    se (N<0) entao
+        TotN <- TotN + 1
     fimse
     contador <- contador + 1    
     ate (contador > 5)
