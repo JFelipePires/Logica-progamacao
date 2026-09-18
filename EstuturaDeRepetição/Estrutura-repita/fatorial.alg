@@ -1,20 +1,20 @@
-algoritmo "Fatorial"
+algoritmo "fatorial"
 
 var
-    C, N, F: inteiro 
+    C, N, F: inteiro
     R: caractere
 inicio
-repita
-    escreva("digite um numero: ")
+repita 
+    escreva ("digite um numero: ")
     leia (N)
     C <- N
     F <- 1
-    Repita
+    repita
         F <- F * C
         C <- C - 1
     ate (C < 1)
-    escreval ("O valor da fotorial de ", N, " È igual a ", F)
-    escreva ("quer continuar? [S/N] ")
+    escreval ("O valor do fatorial de ", N, " É igual á ", F)
+    escreva ("Quer continuar? [S/N]: ")
     leia (R)
     limpatela
 ate (R = "N")
